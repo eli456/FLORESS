@@ -25,6 +25,7 @@ class Migration(migrations.Migration):
                 ('formadepago', models.TextField(default='')),
                 ('existencias', models.FloatField(default=0.0)),
                 ('direccion', models.TextField(blank=True)),
+                
             ],
         ),
     ]
