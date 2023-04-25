@@ -3,6 +3,7 @@ from django.utils.timezone import now
 
 # Create your models here.
 
+
 class Flower(models.Model) :
     nombreflor = models.TextField(default='')
     tipo = models.TextField(default='', blank=True)
